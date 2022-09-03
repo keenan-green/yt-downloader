@@ -91,7 +91,7 @@ while (True):
 
 
             #Set up for Filename and Destination of download
-            output_path = "./Playlist_Downloads/{0}".format(p.title)
+            output_path = "../output/Playlist_Downloads/{0}".format(p.title)
             filename=video.title+".mp4"
 
 
@@ -147,7 +147,7 @@ while (True):
         list = v.streams.filter(type='video', resolution='720p')
 
         #Set up for Filename and Destination of download
-        output_path = "./Video_Downloads"
+        output_path = "../output/Video_Downloads"
         filename=v_title+".mp4"
 
 
