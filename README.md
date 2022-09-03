@@ -23,6 +23,13 @@ In the event of:
     * The program will prompt the user for the playlist's youtube link.
         * The user will further be prompted to select downloading the entire playlist or selected videos along the way.
 
+### Packages
+* pytube: package that allows for the downloading of youtube videos.
+    * To install pytube, run:
+```bash
+pip install pytube
+```
+
 ## To Implement:
 1. Individually downloaded videos to be stored in dated folders
 2. Option for resolution picking
