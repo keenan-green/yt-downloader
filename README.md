@@ -34,3 +34,4 @@ pip install pytube
 1. Individually downloaded videos to be stored in dated folders
 2. Option for resolution picking
 3. Display a list of videos in a playlist and allowing a user to select which to download.
+4. GUI using 'customtkinter'
