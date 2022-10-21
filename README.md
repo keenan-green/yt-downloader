@@ -31,7 +31,10 @@ pip install pytube
 ```
 
 ## To Implement:
+1. Option for resolution picking
+2. Display a list of videos in a playlist and allowing a user to select which to download.
+3. GUI using 'customtkinter'
+
+### Implemented:
+Features that were implemented since the first 'final' product.
 1. Individually downloaded videos to be stored in dated folders
-2. Option for resolution picking
-3. Display a list of videos in a playlist and allowing a user to select which to download.
-4. GUI using 'customtkinter'
