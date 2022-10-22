@@ -57,7 +57,7 @@ if __name__ == '__main__':
                 #Printing title of video currently being downloaded
                 print()
                 print()
-                print("Video title: "+ video.title)
+                print(f"Video title: {video.title}")
                 print()
 
                 #If user specified they would like to authorise each video's download
@@ -105,7 +105,7 @@ if __name__ == '__main__':
 
                 #Set up for Filename and Destination of download
                 output_path = "../output/Playlist_Downloads/{0}".format(p.title)
-                filename=video.title+".mp4"
+                filename = f"{video.title}.mp4"
 
 
                 #Iterating through videos and downloading them in a specific video codec
@@ -153,15 +153,15 @@ if __name__ == '__main__':
                 except:
                     print("Not a valid YouTube video link")
                 print()
-            print("Downloading: "+ v_title)
+            print(f"Downloading: {v_title}")
             print()
 
             #Getting all videos formats of 720p
             list = v.streams.filter(type='video', resolution='720p')
 
             #Set up for Filename and Destination of download
-            output_path = "../output/Video_Downloads"
-            filename=v_title+".mp4"
+            output_path = f"../output/Video_Downloads/{date}"
+            filename = f"{v_title}.mp4"
 
 
             #Iterating through videos and downloading them in a specific video codec
