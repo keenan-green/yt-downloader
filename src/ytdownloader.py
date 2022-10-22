@@ -6,7 +6,12 @@ import datetime
 from pytube import Playlist, YouTube
 
 def getDate():
-    pass
+    date = str(datetime.date.today())
+    dates = date.split('-')
+    date = ''
+    for i in dates:
+        date = f"{i}-{date}"
+    return date[0:len(date)-1]
 
 # Setting up date for output to folder
 date = getDate()
